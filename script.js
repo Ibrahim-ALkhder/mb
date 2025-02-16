@@ -7,7 +7,7 @@ const musicToggle = document.getElementById('musicToggle');
 let isPlaying = false;
 
 // Create and configure the audio element dynamically
-const audio = new Audio("audio/lala land.mp3");  // Updated to relative path
+const audio = new Audio("C:/Users/ibrahim/Desktop/ethar/audio/lala land.mp3.mp3");  // Updated to relative path
 audio.preload = "auto";
 audio.loop = true;
 
