@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La La Land Birthday</title>
+    
+    <!-- External Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Music Button -->
+    <button id="musicToggle"><i class="fas fa-volume-up"></i></button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Happy Birthday <span> Love 🌹🥰 </span></h1>
+            <p class="lead">Happy Birthday, Ethar ❤✨
+
+                Not just your birthday; it's the day when the most beautiful soul was born and made the world brighter with her light. I don't have the words to say how much you mean to me, but I'll attempt it—being with you is like having serenity in the midst of chaos, like having warmth on the coldest days, like hearing my song when I most need it. You are my haven, my delight, and my safe place.
+                
+                Ethar, you are not just a name to me. You are a feeling, a home, and all things beautiful a heart could ever hope for. I discover something new about you every day that I love you more and more, as if love knows no bounds where you are involved.
+                
+                I don't have a gift that would ever be enough to tell you how much you mean to me, but I can say this you are the most precious thing in my life, and I am eternally grateful that fate led us to each other. Wishing you a year of love, joy, and the achievement of all your dreams. And no matter, I will always be here, in every moment, in every joy, and in every step of your way.
+                
+                Happy birthday, my sweetheart. You are my heart, my joy, and my forever. And as each year goes by, I love you more and more ❤</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="container my-5">
+        <h2 class="text-center" data-aos="fade-up">Memory Gallery</h2>
+        <div class="row g-4 mt-4">
+            <div class="col-md-3" data-aos="zoom-in">
+                <img src="img/1.jpg" class="gallery-item img-fluid rounded shadow" alt="Memory">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in">
+                <img src="img/2.jpg" class="gallery-item img-fluid rounded shadow" alt="Memory 2">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in">
+                <img src="img/3.jpg" class="gallery-item img-fluid rounded shadow" alt="Memory 3">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in">
+                <img src="img/4.jpg" class="gallery-item img-fluid rounded shadow" alt="Memory 4">
+            </div>
+            <!-- Repeat similar img blocks for other gallery items -->
+        </div>
+    </section>
+
+    <!-- Wish Section -->
+    <section class="container my-5">
+        <h2 class="text-center" data-aos="fade-up">Leave a Wish</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="message-box" data-aos="flip-up">
+                    <form id="wishForm">
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Write your wish..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Send Wish</button>
+                        <button type="button" id="giftButton" class="btn btn-success mt-2">Gift</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Surprise Section -->
+    <section class="container text-center my-5">
+        <a href="https://www.youtube.com/watch?v=3kyn9Es4HoY" class="btn btn-light">✨ Click Here for a Surprise ✨</a>
+    </section>
+
+    <!-- Flower Container -->
+    <div id="flowerContainer" class="flower-container"></div>
+
+    <!-- External Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
